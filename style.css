@@ -1,0 +1,40 @@
+body{
+	background-color: #DEE8B5;
+	font-size: 20px;
+}
+
+#glowa{
+	
+}
+.powitanie{
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+.rejestracja{
+	text-align: right;
+	font-size: 20px;
+}
+#nav{
+	float: left;
+	width: 200px;
+	border: solid 1px;
+	text-align: center;
+	
+}
+
+#container{
+	float: left;
+	width: 1000px;
+	text-align: center;
+}
+.okienko
+{
+	margin: auto;
+	text-align: center;<form enctype="multipart/form-data" action="plik.php" 
+		 method="post" >
+<input type="hidden" name="MAX_FILE_SIZE" value="512000" />
+<input type="file" name="obrazek" />
+<input type="submit" value="wyślij" />
+</form>
+}
